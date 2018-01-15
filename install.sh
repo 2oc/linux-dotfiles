@@ -50,5 +50,6 @@ if [ -d "$HOME"/.vim/ftplugin ]; then
 fi
 
 ln -nfs "$VIM_DIR"/ftplugin "$HOME"/.vim/ftplugin
+ln -nfs "$VIM_DIR"/colors "$HOME"/.vim/colors
 
 dotfiles_echo "Dotfiles installation complete!"

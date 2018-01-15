@@ -33,4 +33,7 @@ nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <leader>= :wincmd =<cr>
 
 " Write files as sudo
-cmap w!! w !sudo tee >/dev/null %
+map w!! w !sudo tee >/dev/null %
+
+" Режим вклейки
+set pastetoggle=<F7>
